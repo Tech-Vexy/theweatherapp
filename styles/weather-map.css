@@ -1,0 +1,12 @@
+.temperature-marker {
+  z-index: 1000;
+}
+
+.leaflet-container {
+  background-color: #f9f3e5;
+}
+
+.leaflet-tile-pane {
+  opacity: 0.7;
+}
+
