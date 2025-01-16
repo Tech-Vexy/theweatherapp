@@ -21,6 +21,13 @@ const nextConfig: NextConfig = {
             'minnesotareformer.com',
             'sportshub.cbsistatic.com',
             's.yimg.com',
+            'media.cnn.com',
+            'ichef.bbci.co.uk',
+            'www.hindustantimes.com',
+            'www.rollingstone.com',
+            'nbcsports.brightspotcdn.com',
+            'assets1.cbsnewsstatic.com',
+            'www.usatoday.com'
         ]
     }
 };

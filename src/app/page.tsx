@@ -12,6 +12,7 @@ import { Clock } from '@/components/Clock'
 import { NewsCarousel } from '@/components/NewsCarousel'
 import { getLocationData } from '@/utils/geocoding'
 import { getCachedCurrentWeather } from '@/lib/weatherCache'
+import MoonPhases from "@/components/MoonPhases";
 import Head from 'next/head'
 import { toast } from 'sonner'
 import { motion } from 'framer-motion'
@@ -160,6 +161,10 @@ export default function Home() {
                     <div className="space-y-8">
                       <WorldCitiesForecast />
                       <NewsCarousel />
+                        <MoonPhases
+                            apiKey={"nraKzmtpUpmkZJSfea1WLD5PiwYh6sBCh8KmbGZs"}
+                            location={location}
+                            />
                     </div>
                   </div>
 
